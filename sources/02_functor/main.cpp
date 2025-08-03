@@ -61,11 +61,10 @@ int main(int argc, char* argv[])
     introRanges01Classic();
     introRanges02FunctorView();
     introRanges03FunctorViewWithPipe();
-    printStringRange(introRanges05ConvertViewResultToContainer());
+    introRanges05ConvertViewResultToContainer();
 
-    // extra1_FunctorVectorDoublePowToStr();
-
-    // _x2_testDanglingReference();     // Depending on compiler / build options it may crash or worse.
+    // This is the one that shows the dangling reference problem
+	extra1_DanglingReference();
 
     return 0;
 }

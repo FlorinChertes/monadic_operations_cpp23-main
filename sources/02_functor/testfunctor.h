@@ -7,7 +7,6 @@
 namespace mop
 {
 
-
 // Functions to showcase various cases:
 // ('SingleValue' vs. 'Vector' are the cases from the slides)
 
@@ -41,7 +40,7 @@ void intro42FunctorShowIdentity();
 void introRanges01Classic();
 void introRanges02FunctorView();
 void introRanges03FunctorViewWithPipe();
-std::vector<std::string> introRanges05ConvertViewResultToContainer();
+void introRanges05ConvertViewResultToContainer();
 
 // Extra: Shows how to produce a dangling reference
 void extra1_DanglingReference();
